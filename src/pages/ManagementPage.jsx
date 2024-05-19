@@ -6,7 +6,7 @@ const ManagementPage = () => {
   return (
     <>
       <Header />
-      <Container>
+      <Container className="mt-4">
         <TodoControl />
       </Container>
     </>

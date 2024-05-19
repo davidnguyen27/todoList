@@ -4,7 +4,9 @@ const Header = () => {
   return (
     <Navbar className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">TodoList</Navbar.Brand>
+        <Navbar.Brand className="fs-2 fw-bold" href="#home">
+          Group 2
+        </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
